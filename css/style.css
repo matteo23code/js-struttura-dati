@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: block;
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-box{
+  width: 400px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex{
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#cost-fiels{
+  border: 1px solid black;
+}
